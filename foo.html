@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="/swiper/css/swiper.css" />
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper-pagination-bullet {
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      line-height: 20px;
+      font-size: 12px;
+      color: #000;
+      opacity: 1;
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .swiper-pagination-bullet-active {
+      color: #fff;
+      background: #007aff;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="swiper_slide slide_border">
+            <div class="carousel clearfix">
+                <div class=" fl col-20 img-box img-box-line-1">
+                    <img class="img_responsive" src="https://www.carisok.com/apps/images/about/co_partner_logo_01-55651e7850.min.png" alt>
+                    <div class="img_layer" style="display:none;"> 
+                        <p class="text-center">倍耐力</p>
+                    </div>
+                </div>
+                <div class=" fl col-20 img-box img-box-line-1">
+                    <img class="img_responsive" src="https://www.carisok.com/apps/images/about/co_partner_logo_02-d8eaefa9d0.min.png" alt>
+                    <div class="img_layer" style="display:none;">
+                        <p class="text-center">万力轮胎</p>
+                    </div>
+                </div>
+                <div class=" fl col-20 img-box img-box-line-1">
+                    <img class="img_responsive" src="https://www.carisok.com/apps/images/about/co_partner_logo_03-6eabeee5e5.min.png" alt>
+                    <div class="img_layer" style="display:none;">
+                        <p class="text-center">东洋轮胎</p>
+                    </div>
+                </div>
+                <div class=" fl col-20 img-box img-box-line-1">
+                    <img class="img_responsive" src="https://www.carisok.com/apps/images/about/co_partner_logo_04-bb8bb3fd3b.min.png" alt>
+                    <div class="img_layer" style="display:none;">
+                        <p class="text-center">壳牌喜力</p>
+                    </div>
+                </div>
+                 <div class=" fl col-20 img-box img-box-line-1 img-box-last">
+                    <img class="img_responsive" src="https://www.carisok.com/apps/images/about/co_partner_logo_05-e3acae203a.min.png" alt>
+                    <div class="img_layer" style="display:none;">
+                        <p class="text-center">美孚润滑油</p>
+                    </div>
+                </div>
+                <div class=" fl col-20 img-box img-box-line-other">
+                    <img class="img_responsive" src="https://www.carisok.com/apps/images/about/co_partner_logo_06-8288c543f1.min.png" alt>
+                    <div class="img_layer" style="display:none;">
+                        <p class="text-center">普利司通轮胎</p>
+                    </div>
+                </div>
+                <div class=" fl col-20 img-box img-box-line-other">
+                    <img class="img_responsive" src="https://www.carisok.com/apps/images/about/co_partner_logo_07-333adaff84.min.png" alt>
+                    <div class="img_layer" style="display:none;">
+                        <p class="text-center">海大轮胎</p>
+                    </div>
+                </div>
+                <div class=" fl col-20 img-box img-box-line-other">
+                    <img class="img_responsive" src="https://www.carisok.com/apps/images/about/co_partner_logo_08-d3d7bfe616.min.png" alt>
+                    <div class="img_layer" style="display:none;">
+                        <p class="text-center">朝阳轮胎</p>
+                    </div>
+                </div>
+                <div class=" fl col-20 img-box img-box-line-other">
+                    <img class="img_responsive" src="https://www.carisok.com/apps/images/about/co_partner_logo_09-ee25d849ae.min.png" alt>
+                    <div class="img_layer" style="display:none;">
+                        <p class="text-center">长城润滑油</p>
+                    </div>
+                </div>
+                <div class=" fl col-20 img-box img-box-line-other img-box-last">
+                    <img class="img_responsive" src="	https://www.carisok.com/apps/images/about/co_partner_logo_10-9e6cc1d124.min.png" alt>
+                    <div class="img_layer" style="display:none;">
+                        <p class="text-center">西铁古</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="swiper_slide slide_border">
+            <div class="carousel clearfix">
+                <div class=" fl col-20 img-box img-box-line-1">
+                    <img class="img_responsive" src="https://www.carisok.com/apps/images/about/co_partner_logo_01-55651e7850.min.png" alt>
+                    <div class="img_layer" style="display:none;"> 
+                        <p class="text-center">倍耐力</p>
+                    </div>
+                </div>
+                <div class=" fl col-20 img-box img-box-line-1">
+                    <img class="img_responsive" src="https://www.carisok.com/apps/images/about/co_partner_logo_02-d8eaefa9d0.min.png" alt>
+                    <div class="img_layer" style="display:none;">
+                        <p class="text-center">万力轮胎</p>
+                    </div>
+                </div>
+                <div class=" fl col-20 img-box img-box-line-1">
+                    <img class="img_responsive" src="https://www.carisok.com/apps/images/about/co_partner_logo_03-6eabeee5e5.min.png" alt>
+                    <div class="img_layer" style="display:none;">
+                        <p class="text-center">东洋轮胎</p>
+                    </div>
+                </div>
+                <div class=" fl col-20 img-box img-box-line-1">
+                    <img class="img_responsive" src="https://www.carisok.com/apps/images/about/co_partner_logo_04-bb8bb3fd3b.min.png" alt>
+                    <div class="img_layer" style="display:none;">
+                        <p class="text-center">壳牌喜力</p>
+                    </div>
+                </div>
+                 <div class=" fl col-20 img-box img-box-line-1 img-box-last">
+                    <img class="img_responsive" src="https://www.carisok.com/apps/images/about/co_partner_logo_05-e3acae203a.min.png" alt>
+                    <div class="img_layer" style="display:none;">
+                        <p class="text-center">美孚润滑油</p>
+                    </div>
+                </div>
+                <div class=" fl col-20 img-box img-box-line-other">
+                    <img class="img_responsive" src="https://www.carisok.com/apps/images/about/co_partner_logo_06-8288c543f1.min.png" alt>
+                    <div class="img_layer" style="display:none;">
+                        <p class="text-center">普利司通轮胎</p>
+                    </div>
+                </div>
+                <div class=" fl col-20 img-box img-box-line-other">
+                    <img class="img_responsive" src="https://www.carisok.com/apps/images/about/co_partner_logo_07-333adaff84.min.png" alt>
+                    <div class="img_layer" style="display:none;">
+                        <p class="text-center">海大轮胎</p>
+                    </div>
+                </div>
+                <div class=" fl col-20 img-box img-box-line-other">
+                    <img class="img_responsive" src="https://www.carisok.com/apps/images/about/co_partner_logo_08-d3d7bfe616.min.png" alt>
+                    <div class="img_layer" style="display:none;">
+                        <p class="text-center">朝阳轮胎</p>
+                    </div>
+                </div>
+                <div class=" fl col-20 img-box img-box-line-other">
+                    <img class="img_responsive" src="https://www.carisok.com/apps/images/about/co_partner_logo_09-ee25d849ae.min.png" alt>
+                    <div class="img_layer" style="display:none;">
+                        <p class="text-center">长城润滑油</p>
+                    </div>
+                </div>
+                <div class=" fl col-20 img-box img-box-line-other img-box-last">
+                    <img class="img_responsive" src="	https://www.carisok.com/apps/images/about/co_partner_logo_10-9e6cc1d124.min.png" alt>
+                    <div class="img_layer" style="display:none;">
+                        <p class="text-center">西铁古</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="/swiper/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
+      },
+    });
+  </script>
+</body>
+
+</html>
