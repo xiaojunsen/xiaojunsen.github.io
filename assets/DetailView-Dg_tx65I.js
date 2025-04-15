@@ -1,0 +1,1 @@
+import{_ as e,c as t,a,o}from"./index-CB_99cLt.js";const c="/assets/detail-BYiMfAYH.jpg",r={},i={class:"detail"};function n(l,s){return o(),t("div",i,s[0]||(s[0]=[a("img",{class:"img",src:c},null,-1)]))}const d=e(r,[["render",n]]);export{d as default};
